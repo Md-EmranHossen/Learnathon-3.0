@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            var list = new List<int>() { 1, 10, 3, 4, 8, 4, 7 };
+            var list = new List<int>() { 1, 15, 3, 4, 8, 4, 7 };
             var smallestNums = GetSmallestNums(list, 3);
             Console.WriteLine("{0} {1} {2}", smallestNums[0], smallestNums[1], smallestNums[2]);
         }
