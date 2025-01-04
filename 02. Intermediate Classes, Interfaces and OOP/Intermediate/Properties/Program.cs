@@ -2,6 +2,7 @@
 {
     public class Person
     {
+        public string Name { get; set; }
         public DateTime Birthdate { get; private set; }
 
         public Person(DateTime birthdate)
