@@ -22,7 +22,6 @@ namespace Feilds
             {
                 this.Name = name;
             }
-
         }
         public void Promote()
         {
