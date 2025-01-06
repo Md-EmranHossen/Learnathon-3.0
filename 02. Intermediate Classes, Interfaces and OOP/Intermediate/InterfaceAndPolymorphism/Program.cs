@@ -1,10 +1,14 @@
 ﻿namespace InterfaceAndPolymorphism
 {
-    internal class Program
+    public class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            var encoder = new VidoeEncoder();
+            encoder.RegisterNotificationChannel(new MailNotificationChannel);
+            encoder.RegisterNotificationChannel(new SmsNotificationChannel);
+
+            encoder.Encode(new Video());
         }
     }
 }

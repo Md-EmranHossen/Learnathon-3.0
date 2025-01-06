@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace InterfaceAndPolymorphism
 {
-    internal class MailService
+    public class MailService
     {
+        public void Send(Mail mail)
+        {
+            Console.WriteLine("Sending email....");
+        }
     }
 }
