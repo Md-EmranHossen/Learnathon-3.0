@@ -1,10 +1,15 @@
 ﻿namespace Polymorphisom
 {
-    internal class Program
+    public class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            var shapes = new List<Shape>();
+            shapes.Add(new Circle());
+            shapes.Add(new Ractangle());
+
+            var canvas = new Canvas();
+            canvas.DrawShape(shapes);
         }
     }
 }
