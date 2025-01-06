@@ -21,13 +21,8 @@
             var result = multipler(10);
             Console.WriteLine(result);
             */
-
-
-
             var books = new BookRepositories().GetBooks();
             var cheapBooks =  books.FindAll(book => book.Price < 10);
-
-
             foreach (var book in books) { 
                 Console.WriteLine(book.Title);
             }
