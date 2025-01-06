@@ -1,6 +1,6 @@
-﻿namespace InterFaceAreNotMultipuleInheritence
+﻿namespace InterfaceAndPolymorphism
 {
-    public class Program
+    internal class Program
     {
         static void Main(string[] args)
         {
