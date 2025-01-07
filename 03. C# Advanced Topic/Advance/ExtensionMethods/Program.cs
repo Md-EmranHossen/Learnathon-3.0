@@ -1,10 +1,20 @@
-﻿namespace ExtensionMethods
+﻿using ExtensionMethods.Extensions;
+
+namespace ExtensionMethods
 {
-    internal class Program
+    public class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+
+
+            string post = "This is supposed to be a very long long post blah blah blah...";
+
+            var shortenedPost = post.Shorten(5);
+
+            IEnumerable<int> numbers = new List<int>();
+            Console.WriteLine(shortenedPost);
         }
+
     }
 }
