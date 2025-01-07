@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35527.113 d17.12
+VisualStudioVersion = 17.12.35527.113
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generics", "Generics\Generics.csproj", "{A9881629-2F5D-428C-B4CB-41DBB6F73124}"
 EndProject
@@ -12,6 +12,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Events", "Events\Events.csproj", "{55208273-2F5C-49DB-9B80-41BB5EE6998D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtensionMethods", "ExtensionMethods\ExtensionMethods.csproj", "{C95F4F47-4D91-4F0C-86CC-C113273140C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Linq", "Linq\Linq.csproj", "{BCA62266-13F0-45FE-95C2-3792243B5DC0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{C95F4F47-4D91-4F0C-86CC-C113273140C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C95F4F47-4D91-4F0C-86CC-C113273140C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C95F4F47-4D91-4F0C-86CC-C113273140C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCA62266-13F0-45FE-95C2-3792243B5DC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCA62266-13F0-45FE-95C2-3792243B5DC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCA62266-13F0-45FE-95C2-3792243B5DC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCA62266-13F0-45FE-95C2-3792243B5DC0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
