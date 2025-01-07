@@ -17,6 +17,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Linq", "Linq\Linq.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NullableTypes", "NullableTypes\NullableTypes.csproj", "{A98F474E-4756-43EB-9415-D3955023F85B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dynamic", "Dynamic\Dynamic.csproj", "{A065DA00-1FEC-4205-A449-B0307243B45E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExceptionHandiling", "ExceptionHandiling\ExceptionHandiling.csproj", "{68D0AA63-73CF-428F-9DAA-CDBA308ACD61}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +55,14 @@ Global
 		{A98F474E-4756-43EB-9415-D3955023F85B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A98F474E-4756-43EB-9415-D3955023F85B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A98F474E-4756-43EB-9415-D3955023F85B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A065DA00-1FEC-4205-A449-B0307243B45E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A065DA00-1FEC-4205-A449-B0307243B45E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A065DA00-1FEC-4205-A449-B0307243B45E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A065DA00-1FEC-4205-A449-B0307243B45E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68D0AA63-73CF-428F-9DAA-CDBA308ACD61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68D0AA63-73CF-428F-9DAA-CDBA308ACD61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68D0AA63-73CF-428F-9DAA-CDBA308ACD61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68D0AA63-73CF-428F-9DAA-CDBA308ACD61}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
