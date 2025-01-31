@@ -2,7 +2,7 @@
 {
     public class Customer
     {
-
+        public int Id;
         public string Name;
 
         public Customer(string _name)
@@ -14,7 +14,10 @@
         {
             static void Main(string[] args)
             {
-                var person = new Customer("Emran");
+                var customer = new Customer("Emran");
+                Console.WriteLine(customer.Id);
+                Console.WriteLine(customer.Name);
+
             }
         }
     }
