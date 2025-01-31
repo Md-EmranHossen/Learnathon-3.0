@@ -8,7 +8,7 @@
         {
             Console.WriteLine("Hey {0} !This name is {1}", Name, to);
         }
-        public Person Parse(string name)  // This method take a string a return a person object
+        public static Person Parse(string name)  // This method take a string a return a person object
         {
             var person = new Person();
             person.Name = name;
@@ -19,9 +19,8 @@
     {
         static void Main(string[] args)
         {
-            var person = new Person();
-            var p = person.Parse("Emarn");
-            person.Introduce("Hossen");
+            var p = Person.Parse("Emarn");
+            p.Introduce("Hossen");
         }
     }
 }
