@@ -4,9 +4,9 @@
     {
         public string Name;
         
-        public void Introduce()
+        public void Introduce(string to)
         {
-            Console.WriteLine("Hey!My name is " + Name);
+            Console.WriteLine("Hey {0} !This name is {1}",Name, to);
         }
 
     }
