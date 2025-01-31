@@ -1,6 +1,5 @@
 ﻿namespace _02_StaticClass
 {
-
     public class Person
     {
         public string Name;
