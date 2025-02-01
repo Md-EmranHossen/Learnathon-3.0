@@ -1,13 +1,18 @@
 ﻿namespace _03_Constructor
 {
+    public class Order 
+    {
+
+    }
     public class Customer
     {
         public int Id;
         public string Name;
+        public List<Order> Orders;
 
         public Customer()
         {
-
+           // Orders = new List<Order>();
         }
         public Customer(string _name)
         {
@@ -23,6 +28,8 @@
             static void Main(string[] args)
             {
                 var customer = new Customer(1,"Erman");
+                var order = new Order();
+                customer.Orders.Add(order); //
                 Console.WriteLine(customer.Id);
                 Console.WriteLine(customer.Name);
             }
