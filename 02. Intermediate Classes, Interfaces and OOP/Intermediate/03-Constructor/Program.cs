@@ -31,6 +31,7 @@
                 var order = new Order();
                 customer.Orders.Add(order); //
                 Console.WriteLine(customer.Id);
+                customer.Orders = new List<Order>();
                 Console.WriteLine(customer.Name);
             }
         }
