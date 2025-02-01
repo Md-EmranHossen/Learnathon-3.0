@@ -5,19 +5,26 @@
         public int Id;
         public string Name;
 
+        public Customer()
+        {
+
+        }
         public Customer(string _name)
         {
             this.Name = _name;
-
+        }
+        public Customer(int _id, string _name)
+        {
+            this.Id = _id;
+            this.Name = _name;
         }
         internal class Program
         {
             static void Main(string[] args)
             {
-                var customer = new Customer("Emran");
+                var customer = new Customer(1,"Erman");
                 Console.WriteLine(customer.Id);
                 Console.WriteLine(customer.Name);
-
             }
         }
     }
